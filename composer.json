@@ -28,20 +28,17 @@
   },
   "autoload": {
     "psr-4": {
-      "WellCommerce\\Bundle\\PayPalBundle\\": "src/WellCommerce/Bundle/PayPalBundle"
+      "WellCommerce\\Bundle\\PayPalBundle\\": ""
     }
   },
   "require": {
     "php": "^7.0",
-    "wellcommerce/payment-bundle": "^0.7@dev",
+    "wellcommerce/order-bundle": "^0.9@dev",
     "paypal/rest-api-sdk-php": "^1.6"
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "0.7.x-dev"
-    },
-    "wellcommerce-bundle": {
-      "install-dir": "src/WellCommerce/Bundle/PayPalBundle"
+      "dev-master": "0.9.x-dev"
     }
   }
 }
