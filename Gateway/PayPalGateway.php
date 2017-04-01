@@ -30,8 +30,8 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 use WellCommerce\Bundle\CoreBundle\Helper\Router\RouterHelperInterface;
 use WellCommerce\Bundle\OrderBundle\Entity\Order;
 use WellCommerce\Bundle\OrderBundle\Entity\OrderProduct;
-use WellCommerce\Bundle\PaymentBundle\Entity\Payment;
-use WellCommerce\Bundle\PaymentBundle\Gateway\PaymentGatewayInterface;
+use WellCommerce\Bundle\OrderBundle\Entity\Payment;
+use WellCommerce\Bundle\OrderBundle\Gateway\PaymentGatewayInterface;
 
 /**
  * Class PayPalGateway

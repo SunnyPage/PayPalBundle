@@ -12,9 +12,8 @@
 
 namespace WellCommerce\Bundle\PayPalBundle;
 
-use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Doctrine\Common\Collections\Collection;
 use WellCommerce\Bundle\CoreBundle\HttpKernel\AbstractWellCommerceBundle;
-use WellCommerce\Bundle\PaymentBundle\DependencyInjection\Compiler;
 
 /**
  * Class WellCommercePayPalBundle
@@ -23,4 +22,8 @@ use WellCommerce\Bundle\PaymentBundle\DependencyInjection\Compiler;
  */
 final class WellCommercePayPalBundle extends AbstractWellCommerceBundle
 {
+    public static function registerBundles(Collection $bundles, string $environment)
+    {
+        $bundles->add(new self());
+    }
 }

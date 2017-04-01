@@ -39,6 +39,9 @@
   "extra": {
     "branch-alias": {
       "dev-master": "0.9.x-dev"
-    }
+    },
+    "register-bundles": [
+      "WellCommerce\\Bundle\\PayPalBundle\\WellCommercePayPalBundle"
+    ]
   }
 }

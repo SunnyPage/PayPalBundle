@@ -13,7 +13,7 @@
 namespace WellCommerce\Bundle\PayPalBundle\Configurator;
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use WellCommerce\Bundle\PaymentBundle\Configurator\AbstractPaymentMethodConfigurator;
+use WellCommerce\Bundle\OrderBundle\Configurator\AbstractPaymentMethodConfigurator;
 use WellCommerce\Component\Form\Dependencies\DependencyInterface;
 use WellCommerce\Component\Form\Elements\ElementInterface;
 use WellCommerce\Component\Form\FormBuilderInterface;
