@@ -1,5 +1,5 @@
 {
-  "name": "SunnyPage/paypal-bundle",
+  "name": "wellcommerce/paypal-bundle",
   "type": "wellcommerce-bundle",
   "license": "MIT",
   "minimum-stability": "dev",
@@ -23,16 +23,16 @@
   ],
   "support": {
     "email": "support@wellcommerce.org",
-    "issues": "https://github.com/SunnyPage/PayPalBundle/issues",
-    "source": "https://github.com/SunnyPage/PayPalBundle/"
+    "issues": "https://github.com/WellCommerce/PayPalBundle/issues",
+    "source": "https://github.com/WellCommerce/PayPalBundle/"
   },
   "autoload": {
     "psr-4": {
-      "WellCommerce\\Bundle\\SunnyPage\\PayPalBundle\\": ""
+      "WellCommerce\\Bundle\\PayPalBundle\\": ""
     }
   },
   "require": {
-    "php": "^7.0",   
+    "php": "^7.0",
     "paypal/rest-api-sdk-php": "^1.6"
   },
   "extra": {
@@ -40,7 +40,7 @@
       "dev-master": "0.9.x-dev"
     },
     "register-bundles": [
-      "WellCommerce\\Bundle\\SunnyPage\\PayPalBundle\\WellCommercePayPalBundle"
+      "WellCommerce\\Bundle\\PayPalBundle\\WellCommercePayPalBundle"
     ]
   }
 }
