@@ -23,12 +23,12 @@
   ],
   "support": {
     "email": "support@wellcommerce.org",
-    "issues": "https://github.com/WellCommerce/PayPalBundle/issues",
-    "source": "https://github.com/WellCommerce/PayPalBundle/"
+    "issues": "https://github.com/SunnyPage/PayPalBundle/issues",
+    "source": "https://github.com/SunnyPage/PayPalBundle/"
   },
   "autoload": {
     "psr-4": {
-      "WellCommerce\\Bundle\\PayPalBundle\\": ""
+      "WellCommerce\\Bundle\\SunnyPage\\PayPalBundle\\": ""
     }
   },
   "require": {
@@ -40,7 +40,7 @@
       "dev-master": "0.9.x-dev"
     },
     "register-bundles": [
-      "WellCommerce\\Bundle\\PayPalBundle\\WellCommercePayPalBundle"
+      "WellCommerce\\Bundle\\SunnyPage\\PayPalBundle\\WellCommercePayPalBundle"
     ]
   }
 }
